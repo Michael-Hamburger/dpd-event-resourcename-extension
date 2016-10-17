@@ -1,0 +1,21 @@
+{
+  "author": {
+    "name": "Michael Hamburger",
+    "email": "michael.hamburger@pitforest.de",
+    "email2": "michael.hamburger@mail.de
+  },
+  "name": "dpd-event-resourcename-extension",
+  "version": "0.0.1",
+  "description": "Applies patch to dpd-event module to expose resourcename",
+  "repository": {
+    "url": "git://github.com/Michael-Hamburger/dpd-event-resourcename-extension.git"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "main": "event_extension.js",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/Michael-Hamburger/dpd-event-resourcename-extension/issues"
+  }
+}
