@@ -8,7 +8,7 @@
       domain.resourceName = function () // access to the current resourceName the current event is running
       { 
           var pathSegments = path.dirname(resourcePath).split(path.sep);
-          return pathSegments[pathSegments.length - 1];
+          return pathSegments[pathSegments.length - 1].replace(/-/g, '');
       };
     }
     _run.call(this, ctx, domain, fn);
